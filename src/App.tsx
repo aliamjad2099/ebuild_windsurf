@@ -553,6 +553,11 @@ function AppContent() {
                   Welcome to Ebuild - Connect with trusted construction suppliers and contractors. Find quality materials, equipment, and services for your projects.
                 </p>
                 
+                {/* Test deployment indicator */}
+                <p style={{ fontSize: '12px', color: 'rgba(255, 255, 255, 0.6)', marginBottom: '24px' }}>
+                  🚀 Auto-deployment test: {new Date().toLocaleDateString()} at {new Date().toLocaleTimeString()}
+                </p>
+                
                 {/* Search Bar */}
                 <div style={{ 
                   maxWidth: '672px', 
